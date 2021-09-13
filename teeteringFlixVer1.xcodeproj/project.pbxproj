@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2F6CB842328EF09225AFF4 /* Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B33AA0020260A92FF6785A /* Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework */; };
+		86C0921C533623A1DDF2F8E7 /* Pods_teeteringFlixVer1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2018D94A324A619C05C30FA /* Pods_teeteringFlixVer1.framework */; };
+		89385F6CE65EB9C8374E99EF /* Pods_teeteringFlixVer1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1671634B31D033365DE1A4 /* Pods_teeteringFlixVer1Tests.framework */; };
+		A38DE87D26EEC96A00875C85 /* MovieFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DE87C26EEC96A00875C85 /* MovieFeedViewController.swift */; };
+		A38DE87F26EED96800875C85 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38DE87E26EED96800875C85 /* MovieCell.swift */; };
+		A38DE88226EEE69500875C85 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A38DE88126EEE69500875C85 /* AlamofireImage */; };
 		A3A5A13426EEA5CE0089AA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5A13326EEA5CE0089AA1B /* AppDelegate.swift */; };
 		A3A5A13626EEA5CE0089AA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5A13526EEA5CE0089AA1B /* SceneDelegate.swift */; };
-		A3A5A13826EEA5CE0089AA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5A13726EEA5CE0089AA1B /* ViewController.swift */; };
 		A3A5A13B26EEA5CE0089AA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A5A13926EEA5CE0089AA1B /* Main.storyboard */; };
 		A3A5A13D26EEA5CF0089AA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A5A13C26EEA5CF0089AA1B /* Assets.xcassets */; };
 		A3A5A14026EEA5CF0089AA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A5A13E26EEA5CF0089AA1B /* LaunchScreen.storyboard */; };
@@ -35,10 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B33AA0020260A92FF6785A /* Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2608443986F23EE5DFAFAB /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1-teeteringFlixVer1UITests.release.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1-teeteringFlixVer1UITests/Pods-teeteringFlixVer1-teeteringFlixVer1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B1671634B31D033365DE1A4 /* Pods_teeteringFlixVer1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teeteringFlixVer1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCA191DAB474325A15E9CEB /* Pods-teeteringFlixVer1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1Tests.debug.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1Tests/Pods-teeteringFlixVer1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		763527BC39D87FE1BEFA699B /* Pods-teeteringFlixVer1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1.debug.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1/Pods-teeteringFlixVer1.debug.xcconfig"; sourceTree = "<group>"; };
+		966509B69454D21BAE3230D8 /* Pods-teeteringFlixVer1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1Tests.release.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1Tests/Pods-teeteringFlixVer1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A38DE87C26EEC96A00875C85 /* MovieFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedViewController.swift; sourceTree = "<group>"; };
+		A38DE87E26EED96800875C85 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		A3A5A13026EEA5CE0089AA1B /* teeteringFlixVer1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teeteringFlixVer1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A5A13326EEA5CE0089AA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A5A13526EEA5CE0089AA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3A5A13726EEA5CE0089AA1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3A5A13A26EEA5CE0089AA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3A5A13C26EEA5CF0089AA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A5A13F26EEA5CF0089AA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,9 @@
 		A3A5A15126EEA5CF0089AA1B /* teeteringFlixVer1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teeteringFlixVer1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A5A15526EEA5CF0089AA1B /* teeteringFlixVer1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teeteringFlixVer1UITests.swift; sourceTree = "<group>"; };
 		A3A5A15726EEA5CF0089AA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7285D2E2AF3C37D547F924 /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1-teeteringFlixVer1UITests.debug.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1-teeteringFlixVer1UITests/Pods-teeteringFlixVer1-teeteringFlixVer1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B61C833A8BD51E7859F8F5BB /* Pods-teeteringFlixVer1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teeteringFlixVer1.release.xcconfig"; path = "Target Support Files/Pods-teeteringFlixVer1/Pods-teeteringFlixVer1.release.xcconfig"; sourceTree = "<group>"; };
+		D2018D94A324A619C05C30FA /* Pods_teeteringFlixVer1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teeteringFlixVer1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38DE88226EEE69500875C85 /* AlamofireImage in Frameworks */,
+				86C0921C533623A1DDF2F8E7 /* Pods_teeteringFlixVer1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89385F6CE65EB9C8374E99EF /* Pods_teeteringFlixVer1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2F6CB842328EF09225AFF4 /* Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				A3A5A14926EEA5CF0089AA1B /* teeteringFlixVer1Tests */,
 				A3A5A15426EEA5CF0089AA1B /* teeteringFlixVer1UITests */,
 				A3A5A13126EEA5CE0089AA1B /* Products */,
+				B5A0EB5A6475074F8DD22086 /* Pods */,
+				E824B80577723BB088587CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +122,8 @@
 			children = (
 				A3A5A13326EEA5CE0089AA1B /* AppDelegate.swift */,
 				A3A5A13526EEA5CE0089AA1B /* SceneDelegate.swift */,
-				A3A5A13726EEA5CE0089AA1B /* ViewController.swift */,
+				A38DE87C26EEC96A00875C85 /* MovieFeedViewController.swift */,
+				A38DE87E26EED96800875C85 /* MovieCell.swift */,
 				A3A5A13926EEA5CE0089AA1B /* Main.storyboard */,
 				A3A5A13C26EEA5CF0089AA1B /* Assets.xcassets */,
 				A3A5A13E26EEA5CF0089AA1B /* LaunchScreen.storyboard */,
@@ -128,6 +150,30 @@
 			path = teeteringFlixVer1UITests;
 			sourceTree = "<group>";
 		};
+		B5A0EB5A6475074F8DD22086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				763527BC39D87FE1BEFA699B /* Pods-teeteringFlixVer1.debug.xcconfig */,
+				B61C833A8BD51E7859F8F5BB /* Pods-teeteringFlixVer1.release.xcconfig */,
+				AF7285D2E2AF3C37D547F924 /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.debug.xcconfig */,
+				4C2608443986F23EE5DFAFAB /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.release.xcconfig */,
+				6DCA191DAB474325A15E9CEB /* Pods-teeteringFlixVer1Tests.debug.xcconfig */,
+				966509B69454D21BAE3230D8 /* Pods-teeteringFlixVer1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E824B80577723BB088587CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2018D94A324A619C05C30FA /* Pods_teeteringFlixVer1.framework */,
+				34B33AA0020260A92FF6785A /* Pods_teeteringFlixVer1_teeteringFlixVer1UITests.framework */,
+				5B1671634B31D033365DE1A4 /* Pods_teeteringFlixVer1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +181,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A5A15A26EEA5CF0089AA1B /* Build configuration list for PBXNativeTarget "teeteringFlixVer1" */;
 			buildPhases = (
+				A448FEFDCC70B56FF389F3C9 /* [CP] Check Pods Manifest.lock */,
 				A3A5A12C26EEA5CE0089AA1B /* Sources */,
 				A3A5A12D26EEA5CE0089AA1B /* Frameworks */,
 				A3A5A12E26EEA5CE0089AA1B /* Resources */,
+				4C4680044E596ECAEBCC379F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = teeteringFlixVer1;
+			packageProductDependencies = (
+				A38DE88126EEE69500875C85 /* AlamofireImage */,
+			);
 			productName = teeteringFlixVer1;
 			productReference = A3A5A13026EEA5CE0089AA1B /* teeteringFlixVer1.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A5A15D26EEA5CF0089AA1B /* Build configuration list for PBXNativeTarget "teeteringFlixVer1Tests" */;
 			buildPhases = (
+				67CFCF44829157E7233C0CB6 /* [CP] Check Pods Manifest.lock */,
 				A3A5A14226EEA5CF0089AA1B /* Sources */,
 				A3A5A14326EEA5CF0089AA1B /* Frameworks */,
 				A3A5A14426EEA5CF0089AA1B /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A5A16026EEA5CF0089AA1B /* Build configuration list for PBXNativeTarget "teeteringFlixVer1UITests" */;
 			buildPhases = (
+				D36280A71C45DB2BA285298B /* [CP] Check Pods Manifest.lock */,
 				A3A5A14D26EEA5CF0089AA1B /* Sources */,
 				A3A5A14E26EEA5CF0089AA1B /* Frameworks */,
 				A3A5A14F26EEA5CF0089AA1B /* Resources */,
+				8807199F0CFD692FEE2EC722 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +269,9 @@
 				Base,
 			);
 			mainGroup = A3A5A12726EEA5CE0089AA1B;
+			packageReferences = (
+				A38DE88026EEE69500875C85 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = A3A5A13126EEA5CE0089AA1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +310,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C4680044E596ECAEBCC379F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1/Pods-teeteringFlixVer1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1/Pods-teeteringFlixVer1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1/Pods-teeteringFlixVer1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67CFCF44829157E7233C0CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teeteringFlixVer1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8807199F0CFD692FEE2EC722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1-teeteringFlixVer1UITests/Pods-teeteringFlixVer1-teeteringFlixVer1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1-teeteringFlixVer1UITests/Pods-teeteringFlixVer1-teeteringFlixVer1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teeteringFlixVer1-teeteringFlixVer1UITests/Pods-teeteringFlixVer1-teeteringFlixVer1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A448FEFDCC70B56FF389F3C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teeteringFlixVer1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36280A71C45DB2BA285298B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teeteringFlixVer1-teeteringFlixVer1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3A5A12C26EEA5CE0089AA1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A5A13826EEA5CE0089AA1B /* ViewController.swift in Sources */,
 				A3A5A13426EEA5CE0089AA1B /* AppDelegate.swift in Sources */,
 				A3A5A13626EEA5CE0089AA1B /* SceneDelegate.swift in Sources */,
+				A38DE87F26EED96800875C85 /* MovieCell.swift in Sources */,
+				A38DE87D26EEC96A00875C85 /* MovieFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +594,7 @@
 		};
 		A3A5A15B26EEA5CF0089AA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763527BC39D87FE1BEFA699B /* Pods-teeteringFlixVer1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +613,7 @@
 		};
 		A3A5A15C26EEA5CF0089AA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61C833A8BD51E7859F8F5BB /* Pods-teeteringFlixVer1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +632,7 @@
 		};
 		A3A5A15E26EEA5CF0089AA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCA191DAB474325A15E9CEB /* Pods-teeteringFlixVer1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +654,7 @@
 		};
 		A3A5A15F26EEA5CF0089AA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966509B69454D21BAE3230D8 /* Pods-teeteringFlixVer1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +676,7 @@
 		};
 		A3A5A16126EEA5CF0089AA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7285D2E2AF3C37D547F924 /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +696,7 @@
 		};
 		A3A5A16226EEA5CF0089AA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2608443986F23EE5DFAFAB /* Pods-teeteringFlixVer1-teeteringFlixVer1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +754,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A38DE88026EEE69500875C85 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A38DE88126EEE69500875C85 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A38DE88026EEE69500875C85 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3A5A12826EEA5CE0089AA1B /* Project object */;
 }

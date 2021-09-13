@@ -1,0 +1,6 @@
+framework module Pods_teeteringFlixVer1_teeteringFlixVer1UITests {
+  umbrella header "Pods-teeteringFlixVer1-teeteringFlixVer1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
