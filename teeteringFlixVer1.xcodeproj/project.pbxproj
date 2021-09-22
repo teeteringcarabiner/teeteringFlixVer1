@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E175CF26FAC8A6002A0005 /* CollectionPosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E175CE26FAC8A6002A0005 /* CollectionPosterViewController.swift */; };
 		22E50BFF26F7EAE200EC7EFA /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E50BFE26F7EAE200EC7EFA /* MovieDetailsViewController.swift */; };
 		22E50C0126F8177D00EC7EFA /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E50C0026F8177D00EC7EFA /* MovieGridViewController.swift */; };
 		22E50C0326F81F3100EC7EFA /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E50C0226F81F3100EC7EFA /* MovieGridCell.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E175CE26FAC8A6002A0005 /* CollectionPosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPosterViewController.swift; sourceTree = "<group>"; };
 		22E50BFE26F7EAE200EC7EFA /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		22E50C0026F8177D00EC7EFA /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		22E50C0226F81F3100EC7EFA /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				A3A5A14126EEA5CF0089AA1B /* Info.plist */,
 				22E50BFE26F7EAE200EC7EFA /* MovieDetailsViewController.swift */,
 				22E50C0226F81F3100EC7EFA /* MovieGridCell.swift */,
+				22E175CE26FAC8A6002A0005 /* CollectionPosterViewController.swift */,
 			);
 			path = teeteringFlixVer1;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				A38DE87D26EEC96A00875C85 /* MovieFeedViewController.swift in Sources */,
 				22E50C0126F8177D00EC7EFA /* MovieGridViewController.swift in Sources */,
 				22E50C0326F81F3100EC7EFA /* MovieGridCell.swift in Sources */,
+				22E175CF26FAC8A6002A0005 /* CollectionPosterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

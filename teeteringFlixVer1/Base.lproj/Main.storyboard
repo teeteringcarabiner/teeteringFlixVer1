@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
+            <point key="canvasLocation" x="-1359" y="725"/>
         </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="Sit-6E-Anq">
@@ -121,7 +121,53 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qR7-CV-YVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1737.68115942029" y="93.75"/>
+            <point key="canvasLocation" x="-1359" y="1438"/>
+        </scene>
+        <!--Collection Poster View Controller-->
+        <scene sceneID="ZlZ-ls-ouP">
+            <objects>
+                <viewController id="vna-KB-ZNy" customClass="CollectionPosterViewController" customModule="teeteringFlixVer1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gEm-ac-heB" customClass="Collection" customModule="Alamofire">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Khh-41-mfE" userLabel="Backdrop">
+                                <rect key="frame" x="0.0" y="48" width="414" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uDu-cy-BmX" userLabel="Poster View">
+                                <rect key="frame" x="20" y="298" width="167" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="446-uE-sSB" userLabel="Title Label">
+                                <rect key="frame" x="195" y="400" width="199" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAR-1f-SyI" userLabel="Synopsis Label">
+                                <rect key="frame" x="20" y="526" width="374" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qtm-wl-Py3"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RBt-Bq-YT5"/>
+                    <connections>
+                        <outlet property="backdrop" destination="Khh-41-mfE" id="V60-pl-Q5i"/>
+                        <outlet property="posterView" destination="uDu-cy-BmX" id="Yk8-y8-KuS"/>
+                        <outlet property="synopsisLabel" destination="cAR-1f-SyI" id="gmQ-fo-PBQ"/>
+                        <outlet property="titleLabel" destination="446-uE-sSB" id="yt6-ow-gzZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eX7-Ho-HcE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494" y="1438"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="gBJ-Vo-uJk">
@@ -139,7 +185,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UnA-cE-QAH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="-559"/>
+            <point key="canvasLocation" x="-899" y="-740"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="3en-C9-BYc">
@@ -176,6 +222,7 @@
                                         <size key="customSize" width="200" height="202"/>
                                         <connections>
                                             <outlet property="posterView" destination="y6I-OJ-wzW" id="jyv-ua-prh"/>
+                                            <segue destination="vna-KB-ZNy" kind="show" id="sj8-C2-bO1"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -191,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeJ-b8-xiy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947.82608695652186" y="-654.24107142857144"/>
+            <point key="canvasLocation" x="-494" y="725"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="Ih0-u6-Ads">
@@ -210,7 +257,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RM4-Va-cBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+            <point key="canvasLocation" x="-1359" y="-20"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="CTq-Dz-Qab">
@@ -229,7 +276,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcB-fk-haQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37.681159420289859" y="-654.24107142857144"/>
+            <point key="canvasLocation" x="-493" y="-20"/>
         </scene>
     </scenes>
     <resources>
